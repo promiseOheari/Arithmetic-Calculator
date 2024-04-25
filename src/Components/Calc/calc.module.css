@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+   
+    
+}
+
+.container input{
+    padding: 20px 20px;
+    background: #3d1548;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition:all 0.3s ease-in-out;
+}
+
+input:last-child{  
+        grid-column: 3 / span 2 ;     
+}
+/* input:nth-child(1):hover{
+    background: #3d1548;
+
+} */
+
+input:hover{
+    background: #b657d0;
+
+}
+
