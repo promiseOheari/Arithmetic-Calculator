@@ -17,23 +17,35 @@ body{
     padding: 20px 20px;
     background: #3d1548;
     color: #fff;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
     outline: none;
     border: none;
     transition:all 0.3s ease-in-out;
+  box-shadow: 0 5px 5px -5px #7e7c7c;
 }
 
 input:last-child{  
-        grid-column: 3 / span 2 ;     
+        grid-column: 3 / span 2 ;
+        background-color: #742c88;     
 }
-/* input:nth-child(1):hover{
+input:nth-child(1):hover{
     background: #3d1548;
 
-} */
+}
+
+.container input:nth-child(1){
+    background:brown;
+
+}
+
+.container input:nth-child(1):hover{
+    background:rgb(239, 78, 78);
+
+}
 
 input:hover{
-    background: #b657d0;
+    background: #742c88;
 
 }
 

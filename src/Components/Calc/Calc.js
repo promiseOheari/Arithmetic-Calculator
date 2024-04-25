@@ -13,8 +13,8 @@ function Calc() {
     console.log(value)
     
   return (
-    <div className='bg-blue-400 w-full flex flex-col items-center  h-[100vh] '>
-        <h1 className='text-[36px] mb-[40px]'>Basic Calculator</h1>
+    <div className='bg-[#383838] w-full flex flex-col items-center justify-center  h-[100vh] '>
+        <h1 className='text-[36px] mb-[40px] text-white font-bold font-mono'>Basic Calculator</h1>
         <div className='bg-[#f5f5f5] w-[30%]h-full p-[20px] rounded-[10px]'>
             <input value={value}  className='w-[100%] h-[70px] bg-[#3d1548] text-[24px] text-white text-right p-[20px] rounded-[10px] mb-[20px]'/>
 
